@@ -16,7 +16,7 @@ Run executable of your Minecraft.
 **SYNTAX**
 
 ```
-mcm <b[edrock] || j[ava]> run
+mcm {b[edrock] | j[ava]} run
 ```
 
 ---
@@ -28,16 +28,16 @@ This command makes backups of your worlds and packages to a local directory.
 **SYNTAX**
 
 ```
-mcm <b[edrock] || j[ava]> backup <worlds || packs <resource || behavior>>
+mcm {b[edrock] | j[ava]} backup {worlds | packs {resource | behavior}}
 ```
 
 **EXAMPLES**
 ```
-# create a backup of all Bedrock worlds
+# create backup of all Bedrock worlds
 mcm b backup wolrds
 ```
 ```
-# create a backup of java resource packs
+# create backup of java resource packs
 mcm j packs resource
 ```
 
@@ -50,7 +50,7 @@ Restore all backups made.
 **SYNTAX**
 
 ```
-mcm <b[edrock] || j[ava]> restore <worlds || packs <resource || behavior>>
+mcm {b[edrock] | j[ava]} restore {worlds | packs {resource | behavior}}
 ```
 
 **EXAMPLES**
@@ -73,7 +73,7 @@ List all backups made.
 **SYNTAX**
 
 ```
-mcm <b[edrock] || j[ava]> listBackups <worlds || packs <resource || behavior>>
+mcm {b[edrock] | j[ava]} listBackups {worlds | packs <resource | behavior}}
 ```
 
 **EXAMPLES**
@@ -96,7 +96,7 @@ Return to before restore.
 **SYNTAX**
 
 ```
-cmd <b[edrock] || j[ava]> returnRestore <worlds || packs <resource || behavior>>
+cmd {b[edrock] | j[ava]} returnRestore {worlds | packs {resource | behavior}}
 ```
 
 **EXAMPLES**
