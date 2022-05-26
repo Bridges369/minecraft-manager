@@ -13,7 +13,7 @@ A command-line program to manange backups of worlds, behaviors packs and resourc
 
 Run executable of your Minecraft.
 
-**SINTAX**
+**SYNTAX**
 
 ```
 mcm <b[edrock] || j[ava]> run
@@ -25,7 +25,7 @@ mcm <b[edrock] || j[ava]> run
 
 This command makes backups of your worlds and packages to a local directory.
 
-**SINTAX**
+**SYNTAX**
 
 ```
 mcm <b[edrock] || j[ava]> backup <worlds || packs <resource || behavior>>
@@ -47,7 +47,7 @@ mcm j packs resource
 
 Restore all backups made.
 
-**SINTAX**
+**SYNTAX**
 
 ```
 mcm <b[edrock] || j[ava]> restore <worlds || packs <resource || behavior>>
@@ -70,7 +70,7 @@ mcm bedrock restore packs behavior
 
 List all backups made.
 
-**SINTAX**
+**SYNTAX**
 
 ```
 mcm <b[edrock] || j[ava]> listBackups <worlds || packs <resource || behavior>>
@@ -93,7 +93,7 @@ mcm bedrock listBackups packs resource
 
 Return to before restore.
 
-**SINTAX**
+**SYNTAX**
 
 ```
 cmd <b[edrock] || j[ava]> returnRestore <worlds || packs <resource || behavior>>
