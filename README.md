@@ -1,6 +1,6 @@
 # Minecraft Manager
 
-A command-line program to manange backups of worlds, behaviors packs and resource packs, and create scope of behaviors and resources; all locally.
+Manage your Minecraft via command-line. Make a scaffolnding of resource and behavior packs, manage backups of your worlds and packages. Automate your work.
 
 # Waring!
 **This program works only Bedrock Edition now. The Java Edition will be suported in future updates.**
